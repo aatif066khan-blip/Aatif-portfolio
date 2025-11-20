@@ -1,0 +1,194 @@
+/* ========== GLOBAL STYLES ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* ========== HEADER ========== */
+header {
+  background: linear-gradient(135deg, #0078ff, #00d4ff);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+hr {
+  margin: 1rem auto;
+  width: 60%;
+  border: 1px solid #fff;
+}
+
+/* ========== MAIN CONTENT ========== */
+main {
+  padding: 2rem 10%;
+  background: white;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+main h2 {
+  color: #0078ff;
+  margin-bottom: 0.5rem;
+  border-left: 5px solid #0078ff;
+  padding-left: 10px;
+}
+
+main p {
+  margin: 1rem 0;
+}
+
+/* ========== ABOUT SECTION ========== */
+section img {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 50%;
+  border: 4px solid #0078ff;
+}
+
+/* ========== PROJECTS SECTION ========== */
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* ========== TABLE STYLING ========== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #0078ff;
+}
+
+th {
+  background: #0078ff;
+  color: white;
+}
+
+td {
+  background: #eaf6ff;
+}
+
+/* ========== CONTACT FORM ========== */
+form {
+  margin-top: 1rem;
+}
+
+form table {
+  width: 100%;
+  border: none;
+}
+
+form td {
+  padding: 10px;
+  border: none;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #0078ff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #00d4ff;
+  box-shadow: 0 0 5px #00d4ff;
+}
+
+button {
+  background: #0078ff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+footer img {
+  transition: 0.3s;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem 5%;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section img {
+    width: 200px;
+    height: 200px;
+  }
+}
